@@ -50,22 +50,12 @@
 
 
 		///
-		// Lottery
+		// Questions
 		///
 
-		$routeProvider.when('/lottery/:id', {
-			controller: 'LotteryViewController',
-			templateUrl: '/templates/lotteryView.html'
-		});
-
-
-		///
-		// Numbers
-		///
-
-		$routeProvider.when('/numbers/:id', {
-			controller: 'NumberViewController',
-			templateUrl: '/templates/numberView.html'
+		$routeProvider.when('/question/:id', {
+			controller: 'QuestionViewController',
+			templateUrl: '/templates/questionView.html'
 		});
 
 

@@ -1,4 +1,4 @@
-db = new Mongo().getDB('wyodraw');
+db = new Mongo().getDB('int_assist');
 
 var lotteryId = '560d7f94ab3df4645bf6bdc7';
 var allNumbers = new Array(45);
